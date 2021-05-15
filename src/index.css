@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.MyContainer {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.CenteredTitle {
+    text-align: center;
+}
+
+.MyForm {
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 5px 10px #888888;
+    padding-top: 1rem;
+}
+
+.RedText {
+    color: red;
+}
+
+.Explanations {
+    color: red;
+    font-size: 10px;
+    flex-grow: 2;
+    align-self: center;
+    margin: 4px 0;
+}
+
+.ButtonRowMargin {
+    margin: 0;
+}
+
+.FormButton {
+    padding-right: 0;
+}
+
+.toast-header {
+    font-weight: bold;
+}
+
+.toast-header div {
+    flex: 1;
+}
+
+.toast.error .toast-header {
+    border-top: 5px solid red;
+    color: red;
+}
+
+.toast.success .toast-header {
+    border-top: 5px solid #28a745;
+    color: #28a745;
+}
+
+.NotificationsPosition {
+    position: fixed;
+    top: 20px;
+    right: 20px;
 }
